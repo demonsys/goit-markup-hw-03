@@ -332,7 +332,7 @@ address .contacts {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
 }
 .projects .title {
   font-weight: 700;
@@ -344,6 +344,9 @@ address .contacts {
   font-size: 16px;
   line-height: 1.88;
 }
-.projects-item {
+/* .projects-item {
   border: 1px solid #eeeeee;
 }
+.projects-item .text {
+  border-left: 1px solid #eeeeee;
+} */
