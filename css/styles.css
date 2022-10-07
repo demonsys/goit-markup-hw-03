@@ -61,7 +61,7 @@ ul {
   margin: -1px;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -213,9 +213,7 @@ ul {
 }
 .features-list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 30px;
 }
 
 .features .section-title {
@@ -235,7 +233,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
 }
 .team .section-title {
   margin-bottom: 50px;
@@ -246,9 +243,7 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-/* .team-member:not(:last-child) {
-  margin-right: auto;
-} */
+
 .team-member .title {
   font-weight: 500;
   font-size: 16px;
@@ -333,6 +328,11 @@ address .contacts {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .projects .title {
   font-weight: 700;
