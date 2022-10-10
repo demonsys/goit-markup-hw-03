@@ -65,6 +65,9 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
+.section {
+  padding: 94px 0;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -163,10 +166,7 @@ ul {
   width: 696px;
 }
 .hero-btn {
-  display: block;
-  margin: 0 auto;
   padding: 10px 32px;
-
   color: var(--main-light-color);
   background-color: var(--accent-color);
   border: 0;
@@ -188,10 +188,10 @@ ul {
 }
 
 /* Наші переваги (benefits) */
-.benefits .container {
+/* .benefits .container {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 .benefits-list {
   display: flex;
   align-items: flex-start;
@@ -218,8 +218,10 @@ ul {
 }
 
 /* Чем занимаемся (features) */
+.features {
+  padding-top: 0;
+}
 .features .container {
-  padding-bottom: 94px;
   text-align: center;
 }
 .features-list {
@@ -240,8 +242,6 @@ ul {
   background-color: var(--secondary-bcg-color);
 }
 .team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
   text-align: center;
 }
 .team-list {
@@ -261,7 +261,9 @@ ul {
 .team-member:not(:last-child) {
   margin-right: 30px;
 }
-
+.team-description {
+  padding: 30px 0px;
+}
 .team-member .title {
   font-weight: 500;
   font-size: 16px;
@@ -271,17 +273,13 @@ ul {
 .team-member-text {
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 30px;
-}
-.team-member img {
-  margin-bottom: 30px;
 }
 
 /* Футер */
 footer {
   background-color: var(--section-background-color);
 }
-.page-footer .container {
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -313,8 +311,7 @@ address .contacts {
 
 /* Стили для portfolio.html */
 .projects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 .projects .filter {
   display: flex;
@@ -367,6 +364,7 @@ address .contacts {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 .projects .text {
   font-size: 16px;
